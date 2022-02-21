@@ -83,7 +83,7 @@ nav a:hover {
 
 footer {
   text-align: center;
-  background: #000000;
+  background: url("./imagens/bg.jpg");
   padding: 40px 0;
 }
 
@@ -92,3 +92,9 @@ footer {
   font-size: 13px;
   margin: 20px;
 }
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
