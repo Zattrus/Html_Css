@@ -76,7 +76,7 @@ nav a:hover {
 .produto-descricao {
   font-size: 18px;
   line-height: 25px;
-  
+
 }
 
 .produto-preco {
@@ -97,16 +97,14 @@ footer {
   margin: 20px;
 }
 
-main {
-  width: 940px;
-  margin: 0 auto;
-}
-
 form {
   margin: 40px 0;
+  width: 940px;
+  padding: 50px;
 }
 
-form label, form legend {
+form label,
+form legend {
   display: block;
   font-size: 20px;
   margin: 0 0 10px;
@@ -146,7 +144,7 @@ form label, form legend {
 }
 
 table {
-  margin: 20px 0 40px;
+  margin: 40px;
 }
 
 thead {
@@ -155,7 +153,8 @@ thead {
   font-size: bold;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #000000;
   padding: 8px 15px;
 }
@@ -170,6 +169,13 @@ td, th {
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+}
+
+.principal {
+  padding: 3em;
+  background: #FEFEFE;
+  width: 940px;
+  margin: 0 auto;
 }
 
 .principal p {
@@ -187,20 +193,27 @@ td, th {
 .utensilios {
   width: 120px;
   float: left;
-  margin: 0 20px 20px 0;  
+  margin: 0 20px 20px 0;
 }
 
 .mapa {
   padding: 3em 0;
+  background: linear-gradient(#FEFEFE, #888888)
+}
+
+.mapa-conteudo {
+  width: 940px;
+  margin: 0 auto;
 }
 
 .mapa p {
   margin: 0 0 2em;
-  text-align: center; 
+  text-align: center;
 }
 
 .beneficios {
   padding: 3em 0;
+  background: #888888;
 }
 
 .conteudo-beneficios {
@@ -220,6 +233,10 @@ td, th {
 
 .itens:first-child {
   font-weight: bold;
+}
+
+.itens:before {
+  content: "★"
 }
 
 .imagem-beneficios {
